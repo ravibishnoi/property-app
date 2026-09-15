@@ -1,0 +1,189 @@
+{
+  "users": [
+    {
+      "id": "u001",
+      "name": "Aarav Sharma",
+      "email": "user@test.com",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": "o001",
+      "name": "Priya Mehta",
+      "email": "owner@test.com",
+      "password": "owner123",
+      "role": "owner"
+    },
+    {
+      "id": "o002",
+      "name": "Rohan Kapoor",
+      "email": "owner2@test.com",
+      "password": "owner123",
+      "role": "owner"
+    }
+  ],
+
+  "owners": [
+    { "id": "o001", "name": "Priya Mehta", "contact": "+91-9800011122" },
+    { "id": "o002", "name": "Rohan Kapoor", "contact": "+91-9800033344" }
+  ],
+
+  "properties": [
+    {
+      "id": "p001",
+      "name": "Sunrise Residency",
+      "type": "Apartment",
+      "location": "Vaishali Nagar, Jaipur",
+      "price": 4500000,
+      "area": 1250,
+      "areaUnit": "sqft",
+      "configuration": "2BHK",
+      "status": "Available",
+      "description": "A well-ventilated 2BHK apartment close to schools and markets, ideal for small families.",
+      "imagePlaceholder": "assets/images/img-1.png",
+      "ownerId": "o001"
+    },
+    {
+      "id": "p002",
+      "name": "Palm Meadows Villa",
+      "type": "Villa",
+      "location": "Ajmer Road, Jaipur",
+      "price": 12500000,
+      "area": 3200,
+      "areaUnit": "sqft",
+      "configuration": "4BHK",
+      "status": "Available",
+      "description": "Spacious independent villa with private garden and covered parking for two cars.",
+      "imagePlaceholder": "assets/images/img-2.png",
+      "ownerId": "o001"
+    },
+    {
+      "id": "p003",
+      "name": "Green Valley Row House",
+      "type": "Row House",
+      "location": "Mansarovar, Jaipur",
+      "price": 7800000,
+      "area": 2100,
+      "areaUnit": "sqft",
+      "configuration": "3BHK",
+      "status": "Available",
+      "description": "Corner row house in a gated community with 24x7 security and a clubhouse.",
+      "imagePlaceholder": "assets/images/img-3.png",
+      "ownerId": "o002"
+    },
+    {
+      "id": "p004",
+      "name": "City Center Studio",
+      "type": "Apartment",
+      "location": "MI Road, Jaipur",
+      "price": 2800000,
+      "area": 650,
+      "areaUnit": "sqft",
+      "configuration": "1BHK",
+      "status": "Available",
+      "description": "Compact studio apartment perfect for working professionals, walking distance to metro.",
+      "imagePlaceholder": "assets/images/img-4.jpeg",
+      "ownerId": "o002"
+    },
+    {
+      "id": "p005",
+      "name": "Lakeview Heights",
+      "type": "Apartment",
+      "location": "Sirsi Road, Jaipur",
+      "price": 5200000,
+      "area": 1400,
+      "areaUnit": "sqft",
+      "configuration": "3BHK",
+      "status": "Sold",
+      "description": "High-rise apartment with a partial lake view and modern amenities including a gym.",
+      "imagePlaceholder": "assets/images/img-5.jpeg",
+      "ownerId": "o001"
+    },
+    {
+      "id": "p006",
+      "name": "Royal Orchid Villa",
+      "type": "Villa",
+      "location": "Jagatpura, Jaipur",
+      "price": 15800000,
+      "area": 4000,
+      "areaUnit": "sqft",
+      "configuration": "5BHK",
+      "status": "Available",
+      "description": "Premium villa with a private pool, home theatre room, and landscaped lawn.",
+      "imagePlaceholder": "assets/images/img-6.png",
+      "ownerId": "o002"
+    },
+    {
+      "id": "p007",
+      "name": "Sunshine Row Homes",
+      "type": "Row House",
+      "location": "Tonk Road, Jaipur",
+      "price": 6900000,
+      "area": 1900,
+      "areaUnit": "sqft",
+      "configuration": "3BHK",
+      "status": "Under Construction",
+      "description": "New-launch row house project with modern design, possession expected in 12 months.",
+      "imagePlaceholder": "assets/images/img-7.png",
+      "ownerId": "o001"
+    },
+    {
+      "id": "p008",
+      "name": "Metro View Apartments",
+      "type": "Apartment",
+      "location": "Malviya Nagar, Jaipur",
+      "price": 3900000,
+      "area": 1050,
+      "areaUnit": "sqft",
+      "configuration": "2BHK",
+      "status": "Available",
+      "description": "Well-connected apartment near the metro line with 24x7 water and power backup.",
+      "imagePlaceholder": "assets/images/img-8.png",
+      "ownerId": "o002"
+    },
+    {
+      "id": "p009",
+      "name": "Whispering Pines Villa",
+      "type": "Villa",
+      "location": "Jhotwara, Jaipur",
+      "price": 9800000,
+      "area": 2800,
+      "areaUnit": "sqft",
+      "configuration": "4BHK",
+      "status": "Available",
+      "description": "Quiet villa surrounded by greenery, ideal for buyers looking for a peaceful neighborhood.",
+      "imagePlaceholder": "assets/images/img-9.png",
+      "ownerId": "o001"
+    },
+    {
+      "id": "p010",
+      "name": "Golden Nest Row House",
+      "type": "Row House",
+      "location": "Vidhyadhar Nagar, Jaipur",
+      "price": 7200000,
+      "area": 2000,
+      "areaUnit": "sqft",
+      "configuration": "3BHK",
+      "status": "Available",
+      "description": "Family-friendly row house close to parks and reputed schools, ready to move in.",
+      "imagePlaceholder": "assets/images/img-10.png",
+      "ownerId": "o002"
+    },
+    {
+      "id": "p011",
+      "name": "Skyline Towers",
+      "type": "Apartment",
+      "location": "C-Scheme, Jaipur",
+      "price": 8900000,
+      "area": 1700,
+      "areaUnit": "sqft",
+      "configuration": "3BHK",
+      "status": "Available",
+      "description": "Premium high-rise apartment in the heart of the city with panoramic skyline views.",
+      "imagePlaceholder": "assets/images/img-11.png",
+      "ownerId": "o001"
+    }
+  ],
+
+  "interests": []
+}
